@@ -6,6 +6,20 @@ Dashboard built for personal use to streamline daily content use.
 
 This is a customization from the main open source: https://github.com/gethomepage/homepage
 
+# Integrations and APIs
+
+- Your Spotify - self hosted application to track spotify listening and statitstics. Original open source by https://github.com/Yooooomi/your_spotify.
+
+- Uptime Kuma - Site and Docker monitoring
+
+- Nginx Proxy Manager- Proxy monitoring
+
+- News - RSS news feed
+
+- Open Weather- API weather widget
+
+- Bookmarks for daily web browisng
+
 # Custom Homepage
 
 Dashboard built for personal use to streamline daily content use.
