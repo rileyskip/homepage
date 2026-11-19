@@ -1,0 +1,44 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- This Week's Stats:
+    - Spotify:
+        description: Spotify Analytics
+        icon: si-spotify.svg
+        href: http://localhost:3002
+        widget:
+          type: yourspotify
+          url: http://host.docker.internal:8080 # if using lsio image, add /api/
+          key: "{{HOMEPAGE_VAR_SPOTIFY_API_KEY}}"
+          interval: month # optional, defaults to week
+
+- Web Monitoring:
+    - Nginx Proxy Manager:
+        description: Proxy for Uptime Kuma
+        icon: si-nginxproxymanager.svg
+        widget:
+          type: npm
+          url: http://host.docker.internal:81
+          username: ryskipper@yahoo.com
+          password: root2026
+    - Uptime Kuma:
+        description: Uptime Kuma Monitoring
+        icon: si-uptimekuma.svg
+        href: http://localhost:3001
+        widget:
+          type: uptimekuma
+          url: http://host.docker.internal:3001 # docker machine (container) name
+          slug: default #set up a status page at /status/
+
+- News:
+    - NYT:
+        href: http://localhost/
+        description: Top Stories from the New York Times
+        widget:
+          type: feed
+          url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+          maxItems: 5 # optional - defaults to 5
+          layout: grid # optional - possible values list, grid - defaults to list
+          images: true # optional - set to false to hide images - defaults to true
+

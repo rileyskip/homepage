@@ -1,0 +1,60 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- What's Going On:
+    - Bike Stop:
+        - abbr: BS
+          href: https://www.instagram.com/bikestopphilly/?hl=en
+          icon: si-instagram.svg
+    - T Moms:
+        - abbr: TM
+          href: https://www.instagram.com/tmoms/?hl=en
+          icon: si-instagram.svg
+    - Gods Automatic Body:
+        - abbr: GAB
+          href: https://www.instagram.com/gods.automatic.body/?hl=en
+          icon: si-instagram.svg
+    - PFS Young Friends:
+        - abbr: PFS
+          href: https://www.instagram.com/pfsyoungfriends/?hl=en
+          icon: si-instagram.svg
+    - Val's:
+        - abbr: VLB
+          href: https://www.instagram.com/valslesbianbar/?hl=en
+          icon: si-instagram.svg
+    - Ceremony:
+        - abbr: CP
+          href: https://www.instagram.com/ceremonyphilly/?hl=en
+          icon: si-instagram.svg
+    - Dahlak Paradise:
+        - abbr: DP
+          href: https://www.instagram.com/dahlak_paradise/?hl=en
+          icon: si-instagram.svg
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+          icon: si-youtube.svg
+    - Instagram:
+        - abbr: IN
+          href: https://instagram.com/
+          icon: si-instagram.svg
+    - Facebook:
+        - abbr: FB
+          href: https://facebook.com/
+          icon: si-facebook.svg
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/
+          icon: si-reddit.svg
+- Mail:
+    - Gmail:
+        - abbr: GM
+          href: https://gmail.com/
+          icon: si-gmail.svg
+    - Yahoo Mail:
+        - abbr: YM
+          href: https://yahoo.com/
+          icon: si-yahoo.svg
