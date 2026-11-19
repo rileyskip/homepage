@@ -1,0 +1,5 @@
+# Environment variables and secrets
+.env
+
+# Logs and temporary files
+homepage.log
